@@ -5,7 +5,7 @@ public class rev_starpatern {
             int i,j,k,n;
             System.out.print("Enter no. of lines :");
             n=obj.nextInt();
-            for ( i = 1; i <=n ; i++) {
+            for ( i = n; i >=1 ; i--) {
                 for (j=1;j<=n-i;j++){
                     System.out.print(" ");
                 }
